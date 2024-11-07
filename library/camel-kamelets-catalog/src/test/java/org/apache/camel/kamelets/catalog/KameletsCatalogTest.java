@@ -91,7 +91,7 @@ public class KameletsCatalogTest {
 
     @Test
     void testGetKameletsByProvider() throws Exception {
-        List<Kamelet> c = catalog.getKameletByProvider("Apache Software Foundation");
+        List<Kamelet> c = catalog.getKameletByProvider("Red Hat");
         assertFalse(c.isEmpty());
         c = catalog.getKameletByProvider("Eclipse");
         assertTrue(c.isEmpty());
@@ -169,7 +169,6 @@ public class KameletsCatalogTest {
         verifyHeaders("cassandra-source", 1);
         verifyHeaders("dropbox-source", 0);
         verifyHeaders("dropbox-source", 0);
-        verifyHeaders("elasticsearch-index-sink", 10);
         verifyHeaders("exec-sink", 0);
         verifyHeaders("fhir-source", 0);
         verifyHeaders("ftp-source", 10);
