@@ -27,11 +27,11 @@
         </component>
       </components>
     </tools>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.0-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.2-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-parent</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Kamelets Library Parent</description>
       <licenses>
         <license>
@@ -39,7 +39,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.0-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.2-SNAPSHOT?type=pom</purl>
       <externalReferences><reference type="website"><url>https://camel.apache.org/camel-kamelets-parent</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/apache/camel-kamelets/issues</url></reference><reference type="mailing-list"><url>dev-subscribe@camel.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary</url></reference></externalReferences>
     </component>
     <properties>
@@ -49,11 +49,11 @@
     </properties>
   </metadata>
   <components>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Kamelets</description>
       <licenses>
         <license>
@@ -61,14 +61,14 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://camel.apache.org/camel-kamelets-parent/library/camel-kamelets</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/apache/camel-kamelets/issues</url></reference><reference type="mailing-list"><url>dev-subscribe@camel.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary/library/camel-kamelets</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-catalog</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Kamelets Catalog</description>
       <licenses>
         <license>
@@ -76,7 +76,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://camel.apache.org/camel-kamelets-parent/library/camel-kamelets-catalog</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/apache/camel-kamelets/issues</url></reference><reference type="mailing-list"><url>dev-subscribe@camel.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary/library/camel-kamelets-catalog</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar">
@@ -1078,11 +1078,11 @@
       <purl>pkg:maven/io.github.classgraph/classgraph@4.8.175?type=jar</purl>
       <externalReferences><reference type="website"><url>https://github.com/classgraph/classgraph</url></reference><reference type="distribution-intake"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/classgraph/classgraph/issues</url></reference><reference type="vcs"><url>https://github.com/classgraph/classgraph</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-tooling-model</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Tooling Model</description>
       <scope>required</scope>
       <hashes>
@@ -1101,14 +1101,14 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/tooling/camel-tooling-model/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/tooling/camel-tooling-model</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-util-json</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>A json simple parser that preserves the ordering in Map as read from JSon source</description>
       <scope>required</scope>
       <hashes>
@@ -1127,14 +1127,14 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/tooling/camel-util-json/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/tooling/camel-util-json</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-catalog</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Catalog</description>
       <scope>required</scope>
       <hashes>
@@ -1153,14 +1153,14 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/catalog/camel-catalog/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/catalog/camel-catalog</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-catalog@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-catalog@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-catalog</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>The Camel Core Catalog</description>
       <scope>required</scope>
       <hashes>
@@ -1179,14 +1179,14 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-catalog@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-catalog@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-core-catalog/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-core-catalog</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-api</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>The Camel API</description>
       <scope>required</scope>
       <hashes>
@@ -1205,14 +1205,14 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-api/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-api</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-util</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>The Camel Utilities</description>
       <scope>required</scope>
       <hashes>
@@ -1231,7 +1231,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-util/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-util</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.2?type=jar">
@@ -1284,11 +1284,11 @@
       <purl>pkg:maven/jakarta.activation/jakarta.activation-api@2.1.3?type=jar</purl>
       <externalReferences><reference type="website"><url>https://github.com/jakartaee/jaf-api</url></reference><reference type="distribution-intake"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jakartaee/jaf-api/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/jakartaee/jaf-api</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.0-SNAPSHOT?type=maven-plugin">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.2-SNAPSHOT?type=maven-plugin">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>kamelets-maven-plugin</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Kamelets Maven Plugin</description>
       <licenses>
         <license>
@@ -1296,14 +1296,14 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.0-SNAPSHOT?type=maven-plugin</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.2-SNAPSHOT?type=maven-plugin</purl>
       <externalReferences><reference type="website"><url>https://camel.apache.org/camel-kamelets-parent/library/kamelets-maven-plugin</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/apache/camel-kamelets/issues</url></reference><reference type="mailing-list"><url>dev-subscribe@camel.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary/library/kamelets-maven-plugin</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-util@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-util@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-tooling-util</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Tooling utilities</description>
       <scope>required</scope>
       <hashes>
@@ -1322,7 +1322,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-tooling-util@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-tooling-util@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/tooling/camel-tooling-util/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/tooling/camel-tooling-util</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.resolver/maven-resolver-api@2.0.1?type=jar">
@@ -2307,11 +2307,11 @@ file comparators, endian transformation classes, and much more.</description>
       <purl>pkg:maven/commons-io/commons-io@2.16.1?type=jar</purl>
       <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-io/</url></reference><reference type="build-system"><url>https://github.com/apache/commons-parent/actions</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/IO</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-io.git</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-utils</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Kamelets Utilities</description>
       <licenses>
         <license>
@@ -2319,14 +2319,14 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://camel.apache.org/camel-kamelets-parent/library/camel-kamelets-utils</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/apache/camel-kamelets/issues</url></reference><reference type="mailing-list"><url>dev-subscribe@camel.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary/library/camel-kamelets-utils</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-jackson-protobuf</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Jackson Protobuf support</description>
       <scope>required</scope>
       <hashes>
@@ -2345,14 +2345,14 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/components/camel-jackson-protobuf/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/components/camel-jackson-protobuf</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-support</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>The Camel Support</description>
       <scope>required</scope>
       <hashes>
@@ -2371,14 +2371,14 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-support/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-support</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-management-api</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>The Camel Management API</description>
       <scope>required</scope>
       <hashes>
@@ -2397,14 +2397,14 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-management-api/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-management-api</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xml-jaxp-util</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel XML JAXP Util</description>
       <scope>required</scope>
       <hashes>
@@ -2423,7 +2423,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-xml-jaxp-util/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-xml-jaxp-util</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf@2.17.2?type=jar">
@@ -2477,11 +2477,11 @@ abstractions.</description>
       <purl>pkg:maven/com.squareup/protoparser@4.0.3?type=jar</purl>
       <externalReferences><reference type="website"><url>http://github.com/square/protoparser/</url></reference><reference type="distribution-intake"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/square/protoparser/issues</url></reference><reference type="vcs"><url>http://github.com/square/protoparser/</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-jackson</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Jackson support</description>
       <scope>required</scope>
       <hashes>
@@ -2500,14 +2500,14 @@ abstractions.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/components/camel-jackson/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/components/camel-jackson</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-engine</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Just the Camel Core engine without any core components</description>
       <scope>required</scope>
       <hashes>
@@ -2526,14 +2526,14 @@ abstractions.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-core-engine/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-core-engine</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base-engine@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base-engine@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-base-engine</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>The Base Engine Camel Framework</description>
       <scope>required</scope>
       <hashes>
@@ -2552,14 +2552,14 @@ abstractions.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-base-engine@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-base-engine@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-base-engine/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-base-engine</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-base</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>The Base Camel Framework</description>
       <scope>required</scope>
       <hashes>
@@ -2578,14 +2578,14 @@ abstractions.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-base@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-base@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-base/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-base</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-reifier@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-reifier@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-reifier</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel model to processor reifiers</description>
       <scope>required</scope>
       <hashes>
@@ -2604,14 +2604,14 @@ abstractions.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-reifier@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-reifier@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-core-reifier/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-core-reifier</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-model@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-model@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-model</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel model</description>
       <scope>required</scope>
       <hashes>
@@ -2630,14 +2630,14 @@ abstractions.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-model@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-model@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-core-model/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-core-model</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-processor</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel core processors</description>
       <scope>required</scope>
       <hashes>
@@ -2656,14 +2656,14 @@ abstractions.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-core-processor/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-core-processor</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jackson-avro@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jackson-avro@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-jackson-avro</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Jackson Avro support</description>
       <scope>required</scope>
       <hashes>
@@ -2682,7 +2682,7 @@ abstractions.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-jackson-avro@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-jackson-avro@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/components/camel-jackson-avro/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/components/camel-jackson-avro</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-avro@2.17.2?type=jar">
@@ -2835,11 +2835,11 @@ built on Jackson JSON processor</description>
       <purl>pkg:maven/org.tukaani/xz@1.5?type=jar</purl>
       <externalReferences><reference type="website"><url>http://tukaani.org/xz/java.html</url></reference><reference type="vcs"><url>http://git.tukaani.org/?p=xz-java.git</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-kafka@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-kafka@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-kafka</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Kafka support</description>
       <scope>required</scope>
       <hashes>
@@ -2858,14 +2858,14 @@ built on Jackson JSON processor</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-kafka@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-kafka@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/components/camel-kafka/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/components/camel-kafka</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-health@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-health@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-health</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Health Support</description>
       <scope>required</scope>
       <hashes>
@@ -2884,14 +2884,14 @@ built on Jackson JSON processor</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-health@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-health@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-health/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-health</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-console@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-console@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-console</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Developer Console</description>
       <scope>required</scope>
       <hashes>
@@ -2910,7 +2910,7 @@ built on Jackson JSON processor</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-console@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-console@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/core/camel-console/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/core/camel-console</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.kafka/kafka-clients@3.8.0?type=jar">
@@ -3011,11 +3011,11 @@ built on Jackson JSON processor</description>
       <purl>pkg:maven/org.xerial.snappy/snappy-java@1.1.10.5?type=jar</purl>
       <externalReferences><reference type="website"><url>https://github.com/xerial/snappy-java</url></reference><reference type="vcs"><url>https://github.com/xerial/snappy-java</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-gson@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-gson@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-gson</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Gson support</description>
       <scope>required</scope>
       <hashes>
@@ -3034,7 +3034,7 @@ built on Jackson JSON processor</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-gson@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-gson@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/components/camel-gson/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/components/camel-gson</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.gson/gson@2.11.0?type=jar">
@@ -3087,11 +3087,11 @@ built on Jackson JSON processor</description>
       <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.27.0?type=jar</purl>
       <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_annotations</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_annotations</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-azure-storage-blob</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Azure Blob Storage Service Component</description>
       <scope>required</scope>
       <hashes>
@@ -3110,7 +3110,7 @@ built on Jackson JSON processor</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/components/camel-azure-parent/camel-azure-storage-blob/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/components/camel-azure-parent/camel-azure-storage-blob</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.azure/azure-storage-blob@12.27.1?type=jar">
@@ -4488,11 +4488,11 @@ SAX2 and Stax2 APIs</description>
       <purl>pkg:maven/com.fasterxml.woodstox/woodstox-core@6.7.0?type=jar</purl>
       <externalReferences><reference type="website"><url>https://github.com/FasterXML/woodstox</url></reference><reference type="distribution-intake"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/woodstox/issues</url></reference><reference type="vcs"><url>https://github.com/FasterXML/woodstox</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-mongodb@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-mongodb@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-mongodb</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel MongoDB (Java Driver 3) component</description>
       <scope>required</scope>
       <hashes>
@@ -4511,7 +4511,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-mongodb@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-mongodb@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/components/camel-mongodb/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/components/camel-mongodb</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.mongodb/mongodb-driver-core@5.1.4?type=jar">
@@ -4610,11 +4610,11 @@ SAX2 and Stax2 APIs</description>
       <purl>pkg:maven/org.mongodb/bson@5.1.4?type=jar</purl>
       <externalReferences><reference type="website"><url>https://bsonspec.org</url></reference><reference type="vcs"><url>https://github.com/mongodb/mongo-java-driver</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-djl@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-djl@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-djl</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Deep Java Library support</description>
       <scope>required</scope>
       <hashes>
@@ -4633,7 +4633,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-djl@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-djl@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://www.apache.org/camel/camel-parent/components/camel-ai-parent/camel-djl/</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>https://github.com/apache/maven-apache-parent/tree/apache-33/camel/camel-parent/components/camel-ai-parent/camel-djl</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ai.djl/api@0.29.0?type=jar">
@@ -5337,11 +5337,11 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <purl>pkg:maven/net.sf.extjwnl/extjwnl-data-wn31@1.2?type=jar</purl>
       <externalReferences><reference type="website"><url>http://extjwnl.sf.net/extjwnl-data-wn31</url></reference><reference type="distribution-intake"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/extjwnl/extjwnl/issues</url></reference><reference type="mailing-list"><url>http://sourceforge.net/mailarchive/forum.php?forum_name=extjwnl-announce</url></reference><reference type="vcs"><url>https://github.com/extjwnl/extjwnl-data-wn31</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.0-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.2-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-bom</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Kamelets BOM</description>
       <licenses>
         <license>
@@ -5349,14 +5349,14 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.0-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.2-SNAPSHOT?type=pom</purl>
       <externalReferences><reference type="website"><url>https://camel.apache.org/camel-kamelets-parent/library/camel-kamelets-bom</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/apache/camel-kamelets/issues</url></reference><reference type="mailing-list"><url>dev-subscribe@camel.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary/library/camel-kamelets-bom</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.2-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-itest</name>
-      <version>4.8.0-SNAPSHOT</version>
+      <version>4.8.2-SNAPSHOT</version>
       <description>Camel Kamelets Integration Tests</description>
       <licenses>
         <license>
@@ -5364,29 +5364,29 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.2-SNAPSHOT?type=jar</purl>
       <externalReferences><reference type="website"><url>https://camel.apache.org/camel-kamelets-parent/tests/camel-kamelets-itest</url></reference><reference type="distribution-intake"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/apache/camel-kamelets/issues</url></reference><reference type="mailing-list"><url>dev-subscribe@camel.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary/tests/camel-kamelets-itest</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.0-SNAPSHOT?type=pom">
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.0-SNAPSHOT?type=maven-plugin"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.0-SNAPSHOT?type=pom"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.2-SNAPSHOT?type=pom">
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.2-SNAPSHOT?type=maven-plugin"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.2-SNAPSHOT?type=pom"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar">
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.17.2?type=jar"/>
       <dependency ref="pkg:maven/org.apache.camel.k/camel-k-crds@2.4.0?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.17.2?type=jar"/>
       <dependency ref="pkg:maven/io.github.classgraph/classgraph@4.8.175?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.17.2?type=jar">
@@ -5572,34 +5572,34 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     </dependency>
     <dependency ref="pkg:maven/io.fabric8/generator-annotations@6.13.1?type=jar"/>
     <dependency ref="pkg:maven/io.github.classgraph/classgraph@4.8.175?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-core-catalog@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-core-catalog@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-core-catalog@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-core-catalog@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
       <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.2?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar">
+    <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.2?type=jar">
       <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.3?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.3?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.0-SNAPSHOT?type=maven-plugin">
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.2-SNAPSHOT?type=maven-plugin">
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-util@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.apache.maven.resolver/maven-resolver-api@2.0.1?type=jar"/>
       <dependency ref="pkg:maven/org.apache.maven/maven-core@3.9.9?type=jar"/>
       <dependency ref="pkg:maven/org.apache.maven/maven-artifact@3.9.9?type=jar"/>
@@ -5609,10 +5609,10 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <dependency ref="pkg:maven/org.codehaus.plexus/plexus-container-default@2.1.1?type=jar"/>
       <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@4.0.1?type=jar"/>
       <dependency ref="pkg:maven/commons-io/commons-io@2.16.1?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-tooling-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-tooling-util@4.8.2-SNAPSHOT?type=jar"/>
     <dependency ref="pkg:maven/org.apache.maven.resolver/maven-resolver-api@2.0.1?type=jar"/>
     <dependency ref="pkg:maven/org.apache.maven/maven-core@3.9.9?type=jar">
       <dependency ref="pkg:maven/org.apache.maven/maven-model@3.9.9?type=jar"/>
@@ -5770,78 +5770,78 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     </dependency>
     <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"/>
     <dependency ref="pkg:maven/commons-io/commons-io@2.16.1?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-jackson-avro@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-kafka@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-gson@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-mongodb@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-djl@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-jackson-avro@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-kafka@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-gson@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-mongodb@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-djl@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/net.sf.extjwnl/extjwnl@2.0.5?type=jar"/>
       <dependency ref="pkg:maven/net.sf.extjwnl/extjwnl-data-wn31@1.2?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf@2.17.2?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.0-SNAPSHOT?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.2-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-base-engine@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-core-reifier@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-base-engine@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-core-reifier@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-base-engine@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-base@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-base-engine@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-base@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-base@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-base@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-core-reifier@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-core-model@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-core-reifier@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-core-model@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-core-model@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-core-model@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf@2.17.2?type=jar">
       <dependency ref="pkg:maven/com.squareup/protoparser@4.0.3?type=jar"/>
@@ -5849,9 +5849,9 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.17.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.squareup/protoparser@4.0.3?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-jackson-avro@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-jackson-avro@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-avro@2.17.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-avro@2.17.2?type=jar">
@@ -5881,20 +5881,20 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     </dependency>
     <dependency ref="pkg:maven/commons-codec/commons-codec@1.17.0?type=jar"/>
     <dependency ref="pkg:maven/org.tukaani/xz@1.5?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-kafka@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-health@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-console@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-kafka@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-health@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-console@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.apache.kafka/kafka-clients@3.8.0?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-health@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-health@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-console@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-console@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.apache.kafka/kafka-clients@3.8.0?type=jar">
       <dependency ref="pkg:maven/com.github.luben/zstd-jni@1.5.6-3?type=jar"/>
@@ -5904,16 +5904,16 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     </dependency>
     <dependency ref="pkg:maven/com.github.luben/zstd-jni@1.5.6-3?type=jar"/>
     <dependency ref="pkg:maven/org.lz4/lz4-java@1.8.0?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-gson@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-gson@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/com.google.code.gson/gson@2.11.0?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.google.code.gson/gson@2.11.0?type=jar">
       <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.27.0?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.27.0?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/com.azure/azure-storage-blob@12.27.1?type=jar"/>
       <dependency ref="pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.24?type=jar"/>
       <dependency ref="pkg:maven/com.azure/azure-identity@1.13.2?type=jar"/>
@@ -6171,9 +6171,9 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     <dependency ref="pkg:maven/net.java.dev.jna/jna-platform@5.6.0?type=jar">
       <dependency ref="pkg:maven/net.java.dev.jna/jna@5.14.0?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-mongodb@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-mongodb@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.mongodb/mongodb-driver-core@5.1.4?type=jar"/>
       <dependency ref="pkg:maven/org.mongodb/mongodb-driver-sync@5.1.4?type=jar"/>
       <dependency ref="pkg:maven/org.mongodb/bson@5.1.4?type=jar"/>
@@ -6190,8 +6190,8 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <dependency ref="pkg:maven/org.mongodb/bson@5.1.4?type=jar"/>
       <dependency ref="pkg:maven/org.mongodb/mongodb-driver-core@5.1.4?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-djl@4.8.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-djl@4.8.2-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/ai.djl/api@0.29.0?type=jar"/>
       <dependency ref="pkg:maven/ai.djl.timeseries/timeseries@0.29.0?type=jar"/>
     </dependency>
@@ -6263,7 +6263,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     </dependency>
     <dependency ref="pkg:maven/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru@1.3.2?type=jar"/>
     <dependency ref="pkg:maven/net.sf.extjwnl/extjwnl-data-wn31@1.2?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.0-SNAPSHOT?type=pom"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.2-SNAPSHOT?type=pom"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.2-SNAPSHOT?type=jar"/>
   </dependencies>
 </bom>

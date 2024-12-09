@@ -59,7 +59,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.kamelets",
       "name" : "camel-kamelets-parent",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Kamelets Library Parent",
       "licenses" : [
         {
@@ -69,7 +69,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.0-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.2-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -93,7 +93,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.0-SNAPSHOT?type=pom"
+      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.2-SNAPSHOT?type=pom"
     },
     "properties" : [
       {
@@ -115,7 +115,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.kamelets",
       "name" : "camel-kamelets",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Kamelets",
       "licenses" : [
         {
@@ -125,7 +125,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -149,13 +149,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.kamelets",
       "name" : "camel-kamelets-catalog",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Kamelets Catalog",
       "licenses" : [
         {
@@ -165,7 +165,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -189,7 +189,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "QOS.ch",
@@ -2882,7 +2882,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-tooling-model",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Tooling Model",
       "scope" : "required",
       "hashes" : [
@@ -2927,7 +2927,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -2947,13 +2947,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-util-json",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "A json simple parser that preserves the ordering in Map as read from JSon source",
       "scope" : "required",
       "hashes" : [
@@ -2998,7 +2998,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -3018,13 +3018,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-catalog",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Catalog",
       "scope" : "required",
       "hashes" : [
@@ -3069,7 +3069,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -3089,13 +3089,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-catalog",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "The Camel Core Catalog",
       "scope" : "required",
       "hashes" : [
@@ -3140,7 +3140,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-catalog@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-catalog@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -3160,13 +3160,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-catalog@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-catalog@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-api",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "The Camel API",
       "scope" : "required",
       "hashes" : [
@@ -3211,7 +3211,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -3231,13 +3231,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-util",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "The Camel Utilities",
       "scope" : "required",
       "hashes" : [
@@ -3282,7 +3282,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -3302,7 +3302,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "Eclipse Foundation",
@@ -3456,7 +3456,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.kamelets",
       "name" : "kamelets-maven-plugin",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Kamelets Maven Plugin",
       "licenses" : [
         {
@@ -3466,7 +3466,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.0-SNAPSHOT?type=maven-plugin",
+      "purl" : "pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.2-SNAPSHOT?type=maven-plugin",
       "externalReferences" : [
         {
           "type" : "website",
@@ -3490,13 +3490,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.0-SNAPSHOT?type=maven-plugin"
+      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.2-SNAPSHOT?type=maven-plugin"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-tooling-util",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Tooling utilities",
       "scope" : "required",
       "hashes" : [
@@ -3541,7 +3541,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-tooling-util@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-tooling-util@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -3561,7 +3561,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-tooling-util@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-tooling-util@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
@@ -6494,7 +6494,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.kamelets",
       "name" : "camel-kamelets-utils",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Kamelets Utilities",
       "licenses" : [
         {
@@ -6504,7 +6504,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6528,13 +6528,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-jackson-protobuf",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Jackson Protobuf support",
       "scope" : "required",
       "hashes" : [
@@ -6579,7 +6579,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6599,13 +6599,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-support",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "The Camel Support",
       "scope" : "required",
       "hashes" : [
@@ -6650,7 +6650,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6670,13 +6670,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-management-api",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "The Camel Management API",
       "scope" : "required",
       "hashes" : [
@@ -6721,7 +6721,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6741,13 +6741,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xml-jaxp-util",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel XML JAXP Util",
       "scope" : "required",
       "hashes" : [
@@ -6792,7 +6792,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6812,7 +6812,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "FasterXML",
@@ -6958,7 +6958,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-jackson",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Jackson support",
       "scope" : "required",
       "hashes" : [
@@ -7003,7 +7003,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7023,13 +7023,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-engine",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Just the Camel Core engine without any core components",
       "scope" : "required",
       "hashes" : [
@@ -7074,7 +7074,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7094,13 +7094,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-base-engine",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "The Base Engine Camel Framework",
       "scope" : "required",
       "hashes" : [
@@ -7145,7 +7145,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-base-engine@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-base-engine@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7165,13 +7165,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-base-engine@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-base-engine@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-base",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "The Base Camel Framework",
       "scope" : "required",
       "hashes" : [
@@ -7216,7 +7216,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-base@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-base@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7236,13 +7236,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-base@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-base@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-reifier",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel model to processor reifiers",
       "scope" : "required",
       "hashes" : [
@@ -7287,7 +7287,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-reifier@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-reifier@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7307,13 +7307,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-reifier@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-reifier@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-model",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel model",
       "scope" : "required",
       "hashes" : [
@@ -7358,7 +7358,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-model@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-model@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7378,13 +7378,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-model@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-model@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-processor",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel core processors",
       "scope" : "required",
       "hashes" : [
@@ -7429,7 +7429,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7449,13 +7449,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-jackson-avro",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Jackson Avro support",
       "scope" : "required",
       "hashes" : [
@@ -7500,7 +7500,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-jackson-avro@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-jackson-avro@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7520,7 +7520,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-jackson-avro@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-jackson-avro@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "FasterXML",
@@ -7928,7 +7928,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-kafka",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Kafka support",
       "scope" : "required",
       "hashes" : [
@@ -7973,7 +7973,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-kafka@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-kafka@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -7993,13 +7993,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-kafka@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-kafka@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-health",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Health Support",
       "scope" : "required",
       "hashes" : [
@@ -8044,7 +8044,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-health@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-health@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -8064,13 +8064,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-health@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-health@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-console",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Developer Console",
       "scope" : "required",
       "hashes" : [
@@ -8115,7 +8115,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-console@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-console@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -8135,7 +8135,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-console@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-console@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "group" : "org.apache.kafka",
@@ -8379,7 +8379,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-gson",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Gson support",
       "scope" : "required",
       "hashes" : [
@@ -8424,7 +8424,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-gson@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-gson@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -8444,7 +8444,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-gson@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-gson@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "group" : "com.google.code.gson",
@@ -8582,7 +8582,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-azure-storage-blob",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Azure Blob Storage Service Component",
       "scope" : "required",
       "hashes" : [
@@ -8627,7 +8627,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -8647,7 +8647,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "publisher" : "Microsoft Corporation",
@@ -12130,7 +12130,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-mongodb",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel MongoDB (Java Driver 3) component",
       "scope" : "required",
       "hashes" : [
@@ -12175,7 +12175,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-mongodb@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-mongodb@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12195,7 +12195,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-mongodb@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-mongodb@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "group" : "org.mongodb",
@@ -12445,7 +12445,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-djl",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Deep Java Library support",
       "scope" : "required",
       "hashes" : [
@@ -12490,7 +12490,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-djl@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-djl@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12510,7 +12510,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-djl@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-djl@4.8.2-SNAPSHOT?type=jar"
     },
     {
       "group" : "ai.djl",
@@ -14360,7 +14360,7 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.kamelets",
       "name" : "camel-kamelets-bom",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Kamelets BOM",
       "licenses" : [
         {
@@ -14370,7 +14370,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.0-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.2-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -14394,13 +14394,13 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.0-SNAPSHOT?type=pom"
+      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.2-SNAPSHOT?type=pom"
     },
     {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.kamelets",
       "name" : "camel-kamelets-itest",
-      "version" : "4.8.0-SNAPSHOT",
+      "version" : "4.8.2-SNAPSHOT",
       "description" : "Camel Kamelets Integration Tests",
       "licenses" : [
         {
@@ -14410,7 +14410,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.0-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.2-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -14434,36 +14434,36 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.0-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.2-SNAPSHOT?type=jar"
     }
   ],
   "dependencies" : [
     {
-      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.0-SNAPSHOT?type=pom",
+      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.8.2-SNAPSHOT?type=pom",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.0-SNAPSHOT?type=maven-plugin",
-        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.0-SNAPSHOT?type=pom",
-        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.2-SNAPSHOT?type=maven-plugin",
+        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.2-SNAPSHOT?type=pom",
+        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
         "pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar",
-        "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.17.2?type=jar",
         "pkg:maven/org.apache.camel.k/camel-k-crds@2.4.0?type=jar",
         "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.17.2?type=jar",
         "pkg:maven/io.github.classgraph/classgraph@4.8.175?type=jar",
-        "pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
@@ -14771,40 +14771,40 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-core-catalog@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-core-catalog@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-core-catalog@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-core-catalog@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-tooling-model@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-tooling-model@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar",
         "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.2?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
         "pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"
       ]
@@ -14820,10 +14820,10 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.0-SNAPSHOT?type=maven-plugin",
+      "ref" : "pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.8.2-SNAPSHOT?type=maven-plugin",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-tooling-util@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-tooling-util@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.apache.maven.resolver/maven-resolver-api@2.0.1?type=jar",
         "pkg:maven/org.apache.maven/maven-core@3.9.9?type=jar",
         "pkg:maven/org.apache.maven/maven-artifact@3.9.9?type=jar",
@@ -14833,12 +14833,12 @@
         "pkg:maven/org.codehaus.plexus/plexus-container-default@2.1.1?type=jar",
         "pkg:maven/org.codehaus.plexus/plexus-utils@4.0.1?type=jar",
         "pkg:maven/commons-io/commons-io@2.16.1?type=jar",
-        "pkg:maven/org.apache.camel/camel-catalog@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-catalog@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-tooling-util@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-tooling-util@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -15113,112 +15113,112 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-utils@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-jackson-avro@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-kafka@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-gson@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-mongodb@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-djl@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-jackson-avro@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-kafka@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-gson@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-mongodb@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-djl@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/net.sf.extjwnl/extjwnl@2.0.5?type=jar",
         "pkg:maven/net.sf.extjwnl/extjwnl-data-wn31@1.2?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-jackson-protobuf@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf@2.17.2?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-base-engine@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-core-reifier@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-base-engine@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-core-reifier@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-base-engine@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-base-engine@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-base@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-base@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-base@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-base@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-management-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-management-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-core-reifier@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-core-reifier@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-core-model@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-core-model@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-core-model@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-core-model@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-core-processor@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-core-processor@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-api@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-api@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
@@ -15234,10 +15234,10 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-jackson-avro@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-jackson-avro@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-avro@2.17.2?type=jar"
       ]
     },
@@ -15296,27 +15296,27 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-kafka@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-kafka@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-health@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-console@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-health@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-console@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.apache.kafka/kafka-clients@3.8.0?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-health@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-health@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-core-engine@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-core-engine@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-console@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-console@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-util-json@4.8.0-SNAPSHOT?type=jar"
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-util-json@4.8.2-SNAPSHOT?type=jar"
       ]
     },
     {
@@ -15337,9 +15337,9 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-gson@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-gson@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/com.google.code.gson/gson@2.11.0?type=jar"
       ]
     },
@@ -15354,9 +15354,9 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-azure-storage-blob@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/com.azure/azure-storage-blob@12.27.1?type=jar",
         "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.24?type=jar",
         "pkg:maven/com.azure/azure-identity@1.13.2?type=jar",
@@ -15778,10 +15778,10 @@
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-mongodb@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-mongodb@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
-        "pkg:maven/org.apache.camel/camel-jackson@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-jackson@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/org.mongodb/mongodb-driver-core@5.1.4?type=jar",
         "pkg:maven/org.mongodb/mongodb-driver-sync@5.1.4?type=jar",
         "pkg:maven/org.mongodb/bson@5.1.4?type=jar"
@@ -15812,9 +15812,9 @@
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel/camel-djl@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel/camel-djl@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.camel/camel-support@4.8.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.apache.camel/camel-support@4.8.2-SNAPSHOT?type=jar",
         "pkg:maven/ai.djl/api@0.29.0?type=jar",
         "pkg:maven/ai.djl.timeseries/timeseries@0.29.0?type=jar"
       ]
@@ -15960,11 +15960,11 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.0-SNAPSHOT?type=pom",
+      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.8.2-SNAPSHOT?type=pom",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.0-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.8.2-SNAPSHOT?type=jar",
       "dependsOn" : [ ]
     }
   ]
