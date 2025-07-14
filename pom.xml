@@ -29,7 +29,7 @@
     <groupId>org.apache.camel.kamelets</groupId>
     <artifactId>camel-kamelets-parent</artifactId>
     <packaging>pom</packaging>
-    <version>4.10.6</version>
+    <version>4.10.6-SNAPSHOT</version>
     <name>Camel Kamelets Parent</name>
     <description>Camel Kamelets Library Parent</description>
 
@@ -73,7 +73,7 @@
         <version.com.amazon.redshift.redshift-jdbc42>2.1.0.32</version.com.amazon.redshift.redshift-jdbc42>
         <version.org.apache.activemq.artemis-jakarta-client-all>2.39.0</version.org.apache.activemq.artemis-jakarta-client-all>
         <version.org.messaginghub.pooled-jms>3.1.7</version.org.messaginghub.pooled-jms>
-	<version.org.postgresql.postgresql>42.7.5</version.org.postgresql.postgresql>
+	<version.org.postgresql.postgresql>42.7.7</version.org.postgresql.postgresql>
 	<version.net.snowflake.snowflake-jdbc>3.22.0</version.net.snowflake.snowflake-jdbc>
 	<version.io.quarkus.quarkus-apicurio-registry-avro>3.18.1</version.io.quarkus.quarkus-apicurio-registry-avro>
 	<!-- These versions should be taken from Azure SDK BOM used in the Camel version declared -->
@@ -81,6 +81,21 @@
         <version.com.azure.azure-data-schemaregistry-apacheavro>1.1.23</version.com.azure.azure-data-schemaregistry-apacheavro>
         <version.com.microsoft.azure.azure-schemaregistry-kafka-avro>1.1.1</version.com.microsoft.azure.azure-schemaregistry-kafka-avro>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-parent</artifactId>
+                <version>${camel-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.azure</groupId>
+                <artifactId>azure-identity</artifactId>
+                <version>${version.com.azure.azure-identity}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <developers>
         <developer>
