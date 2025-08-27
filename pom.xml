@@ -81,6 +81,23 @@
         <version.com.microsoft.azure.azure-schemaregistry-kafka-avro>1.1.2</version.com.microsoft.azure.azure-schemaregistry-kafka-avro>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-parent</artifactId>
+                <version>${camel-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.azure</groupId>
+                <artifactId>azure-identity</artifactId>
+                <version>${version.com.azure.azure-identity}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
     <developers>
         <developer>
             <name>The Apache Camel Team</name>
