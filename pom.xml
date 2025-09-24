@@ -137,7 +137,7 @@
         <connection>scm:git:http://gitbox.apache.org/repos/asf/camel-kamelets.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/camel-kamelets.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary</url>
-        <tag>v4.10.6</tag>
+        <tag>v4.10.7</tag>
     </scm>
 
     <issueManagement>
