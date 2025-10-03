@@ -67,7 +67,7 @@ metadata:
   name: timer-source
   annotations:
     camel.apache.org/kamelet.icon: data:image/svg+xml;base64,PD94...
-    camel.apache.org/provider: "Apache Software Foundation"
+    camel.apache.org/provider: "Red Hat"
   labels:
     camel.apache.org/kamelet.type: "source"
 spec:

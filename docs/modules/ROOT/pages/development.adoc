@@ -198,7 +198,7 @@ metadata:
   name: twitter-search-source
   annotations:
     camel.apache.org/kamelet.icon: "data:image/svg+xml;base64,..." # Truncated <1>
-    camel.apache.org/provider: "Apache Software Foundation"
+    camel.apache.org/provider: "Red Hat"
   labels:
     camel.apache.org/kamelet.type: "source"
     camel.apache.org/kamelet.group: "Twitter"
@@ -919,7 +919,7 @@ metadata:
   name: earthquake-source
   annotations:
     camel.apache.org/kamelet.icon: "data:image/svg+xml;base64..." # truncated <1>
-    camel.apache.org/provider: "Apache Software Foundation"
+    camel.apache.org/provider: "Red Hat"
   labels:
     camel.apache.org/kamelet.type: "source"
     camel.apache.org/requires.runtime: "camel-quarkus" <2>
@@ -1237,7 +1237,7 @@ metadata:
   name: telegram-sink
   annotations:
     camel.apache.org/kamelet.icon: "data:image/svg+xml;base64,..." # truncated
-    camel.apache.org/provider: "Apache Software Foundation"
+    camel.apache.org/provider: "Red Hat"
   labels:
     camel.apache.org/kamelet.type: "sink"
     camel.apache.org/kamelet.group: "Telegram"
