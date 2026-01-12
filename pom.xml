@@ -66,6 +66,7 @@
 
         <citrus.version>4.9.0</citrus.version>
         <jose4j.version>0.9.6</jose4j.version>
+        <lz4java.version>1.10.2</lz4java.version>
 
         <!-- Versions used inside Kamelets (add them also to the dependencyManagement section and the groovy script below) -->
         <!-- These properties must keep this same format "version.<groupId>.<artifactId>" -->

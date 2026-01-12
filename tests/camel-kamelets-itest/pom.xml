@@ -136,10 +136,28 @@
             <artifactId>citrus-camel</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- kafka java client -->
+        <dependency>
+            <groupId>at.yawk.lz4</groupId>
+            <artifactId>lz4-java</artifactId>
+            <version>${lz4java.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.citrusframework</groupId>
             <artifactId>citrus-kafka</artifactId>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>at.yawk.lz4</groupId>
+                    <artifactId>lz4-java</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.lz4</groupId>
+                    <artifactId>lz4-java</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.citrusframework</groupId>
