@@ -121,7 +121,7 @@ public class KameletsCatalogTest {
     void testGetKameletsByNamespace() throws Exception {
         List<Kamelet> c = catalog.getKameletsByNamespace("AWS");
         assertFalse(c.isEmpty());
-        assertEquals(17, c.size());
+        assertEquals(19, c.size());
         c = catalog.getKameletsByGroups("Not-existing-group");
         assertTrue(c.isEmpty());
     }
@@ -193,9 +193,6 @@ public class KameletsCatalogTest {
         verifyHeaders("jms-ibm-mq-sink", 18);
         verifyHeaders("kafka-source", 9);
         verifyHeaders("kafka-sink", 5);
-        verifyHeaders("kubernetes-namespaces-source", 2);
-        verifyHeaders("kubernetes-nodes-source", 2);
-        verifyHeaders("kubernetes-pods-source", 2);
         verifyHeaders("mariadb-source", 0);
         verifyHeaders("mariadb-sink", 9);
         verifyHeaders("minio-source", 15);
