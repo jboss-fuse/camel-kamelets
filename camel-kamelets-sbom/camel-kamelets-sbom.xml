@@ -27,11 +27,11 @@
         </component>
       </components>
     </tools>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.18.0-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.18.1-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-parent</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Camel Kamelets Library Parent</description>
       <licenses>
         <license>
@@ -39,7 +39,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.18.0-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.18.1-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/camel-kamelets-parent</url>
@@ -65,11 +65,11 @@
     </properties>
   </metadata>
   <components>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-crds</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Camel Kamelets CRDs</description>
       <licenses>
         <license>
@@ -77,7 +77,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/camel-kamelets-parent/library/camel-kamelets-crds</url>
@@ -2230,11 +2230,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Camel Kamelets</description>
       <licenses>
         <license>
@@ -2242,7 +2242,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/camel-kamelets-parent/library/camel-kamelets</url>
@@ -2261,11 +2261,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-catalog</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Camel Kamelets Catalog</description>
       <licenses>
         <license>
@@ -2273,7 +2273,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/camel-kamelets-parent/library/camel-kamelets-catalog</url>
@@ -2516,11 +2516,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-tooling-model</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Tooling Model</description>
       <scope>required</scope>
       <hashes>
@@ -2539,7 +2539,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-tooling-model@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-tooling-model@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/camel-tooling-model/</url>
@@ -2555,11 +2555,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util-json@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util-json@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-util-json</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>A json simple parser that preserves the ordering in Map as read from JSon source</description>
       <scope>required</scope>
       <hashes>
@@ -2578,7 +2578,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-util-json@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-util-json@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/camel-util-json/</url>
@@ -2594,11 +2594,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-catalog@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-catalog@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-catalog</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Camel Catalog</description>
       <scope>required</scope>
       <hashes>
@@ -2617,7 +2617,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-catalog@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-catalog@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/catalog/camel-catalog/</url>
@@ -2633,11 +2633,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-catalog@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-catalog@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-catalog</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>The Camel Core Catalog</description>
       <scope>required</scope>
       <hashes>
@@ -2656,7 +2656,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-catalog@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-catalog@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-core-catalog/</url>
@@ -2672,11 +2672,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-api@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-api@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-api</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>The Camel API</description>
       <scope>required</scope>
       <hashes>
@@ -2695,7 +2695,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-api@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-api@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-api/</url>
@@ -2711,11 +2711,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-util</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>The Camel Utilities</description>
       <scope>required</scope>
       <hashes>
@@ -2734,7 +2734,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-util@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-util@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-util/</url>
@@ -2832,11 +2832,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.18.0-SNAPSHOT?type=maven-plugin">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.18.1-SNAPSHOT?type=maven-plugin">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>kamelets-maven-plugin</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Camel Kamelets Maven Plugin</description>
       <licenses>
         <license>
@@ -2844,7 +2844,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.18.0-SNAPSHOT?type=maven-plugin</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.18.1-SNAPSHOT?type=maven-plugin</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/camel-kamelets-parent/library/kamelets-maven-plugin</url>
@@ -2863,11 +2863,11 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-util@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-util@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-tooling-util</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Tooling utilities</description>
       <scope>required</scope>
       <hashes>
@@ -2886,7 +2886,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-tooling-util@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-tooling-util@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/camel-tooling-util/</url>
@@ -4598,11 +4598,11 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.18.0-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.18.1-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-bom</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Camel Kamelets BOM</description>
       <licenses>
         <license>
@@ -4610,7 +4610,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.18.0-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.18.1-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/camel-kamelets-parent/library/camel-kamelets-bom</url>
@@ -4629,11 +4629,11 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.18.0-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.18.1-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.kamelets</group>
       <name>camel-kamelets-itest</name>
-      <version>4.18.0-SNAPSHOT</version>
+      <version>4.18.1-SNAPSHOT</version>
       <description>Camel Kamelets Integration Tests</description>
       <licenses>
         <license>
@@ -4641,7 +4641,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.18.0-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.18.1-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/camel-kamelets-parent/tests/camel-kamelets-itest</url>
@@ -4662,15 +4662,15 @@ file comparators, endian transformation classes, and much more.</description>
     </component>
   </components>
   <dependencies>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.18.0-SNAPSHOT?type=pom">
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.18.0-SNAPSHOT?type=maven-plugin"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.18.0-SNAPSHOT?type=pom"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.18.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-parent@4.18.1-SNAPSHOT?type=pom">
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.18.1-SNAPSHOT?type=maven-plugin"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.18.1-SNAPSHOT?type=pom"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.18.1-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.0-SNAPSHOT?type=jar">
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.1-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/io.fabric8/kubernetes-client@7.5.2?type=jar"/>
       <dependency ref="pkg:maven/io.fabric8/generator-annotations@7.5.2?type=jar"/>
       <dependency ref="pkg:maven/io.sundr/builder-annotations@0.230.1?type=jar"/>
@@ -4953,16 +4953,16 @@ file comparators, endian transformation classes, and much more.</description>
     </dependency>
     <dependency ref="pkg:maven/io.sundr/resourcecify-annotations@0.230.1?type=jar"/>
     <dependency ref="pkg:maven/org.projectlombok/lombok@1.18.42?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.0-SNAPSHOT?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.0-SNAPSHOT?type=jar">
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.1-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.1-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-crds@4.18.1-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.19.4?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.19.4?type=jar"/>
       <dependency ref="pkg:maven/io.github.classgraph/classgraph@4.8.184?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.18.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.18.1-SNAPSHOT?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4?type=jar">
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.4?type=jar"/>
@@ -4982,34 +4982,34 @@ file comparators, endian transformation classes, and much more.</description>
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/io.github.classgraph/classgraph@4.8.184?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.18.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.1-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.18.1-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.18.0-SNAPSHOT?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.18.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-core-catalog@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.18.1-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.18.1-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-core-catalog@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-util-json@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.1-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-core-catalog@4.18.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-core-catalog@4.18.1-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-api@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-model@4.18.1-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-api@4.18.0-SNAPSHOT?type=jar">
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.18.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-api@4.18.1-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.18.1-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"/>
       <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.5?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-util@4.18.0-SNAPSHOT?type=jar">
+    <dependency ref="pkg:maven/org.apache.camel/camel-util@4.18.1-SNAPSHOT?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.5?type=jar">
       <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.18.0-SNAPSHOT?type=maven-plugin">
-      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-util@4.18.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/kamelets-maven-plugin@4.18.1-SNAPSHOT?type=maven-plugin">
+      <dependency ref="pkg:maven/org.apache.camel/camel-util@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-tooling-util@4.18.1-SNAPSHOT?type=jar"/>
       <dependency ref="pkg:maven/org.apache.maven.resolver/maven-resolver-api@2.0.14?type=jar"/>
       <dependency ref="pkg:maven/org.apache.maven/maven-core@3.9.12?type=jar"/>
       <dependency ref="pkg:maven/org.apache.maven/maven-artifact@3.9.12?type=jar"/>
@@ -5019,10 +5019,10 @@ file comparators, endian transformation classes, and much more.</description>
       <dependency ref="pkg:maven/org.codehaus.plexus/plexus-container-default@2.1.1?type=jar"/>
       <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@4.0.2?type=jar"/>
       <dependency ref="pkg:maven/commons-io/commons-io@2.21.0?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.18.0-SNAPSHOT?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel/camel-catalog@4.18.1-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-catalog@4.18.1-SNAPSHOT?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.camel/camel-tooling-util@4.18.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel/camel-tooling-util@4.18.1-SNAPSHOT?type=jar"/>
     <dependency ref="pkg:maven/org.apache.maven.resolver/maven-resolver-api@2.0.14?type=jar"/>
     <dependency ref="pkg:maven/org.apache.maven/maven-core@3.9.12?type=jar">
       <dependency ref="pkg:maven/org.apache.maven/maven-model@3.9.12?type=jar"/>
@@ -5185,7 +5185,7 @@ file comparators, endian transformation classes, and much more.</description>
     </dependency>
     <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"/>
     <dependency ref="pkg:maven/commons-io/commons-io@2.21.0?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.18.0-SNAPSHOT?type=pom"/>
-    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.18.0-SNAPSHOT?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-bom@4.18.1-SNAPSHOT?type=pom"/>
+    <dependency ref="pkg:maven/org.apache.camel.kamelets/camel-kamelets-itest@4.18.1-SNAPSHOT?type=jar"/>
   </dependencies>
 </bom>
