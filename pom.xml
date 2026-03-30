@@ -83,6 +83,23 @@
         <version.com.databricks.databricks-jdbc>3.0.7</version.com.databricks.databricks-jdbc>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-parent</artifactId>
+                <version>${camel-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.azure</groupId>
+                <artifactId>azure-identity</artifactId>
+                <version>${version.com.azure.azure-identity}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
     <developers>
         <developer>
             <name>The Apache Camel Team</name>
