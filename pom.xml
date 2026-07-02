@@ -23,13 +23,13 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-	<version>4.18.2</version>
+	<version>4.18.3</version>
     </parent>
 
     <groupId>org.apache.camel.kamelets</groupId>
     <artifactId>camel-kamelets-parent</artifactId>
     <packaging>pom</packaging>
-    <version>4.18.2-SNAPSHOT</version>
+    <version>4.18.3-SNAPSHOT</version>
     <name>Camel Kamelets Parent</name>
     <description>Camel Kamelets Library Parent</description>
 
@@ -62,7 +62,7 @@
         <apache-rat-plugin.version>0.17</apache-rat-plugin.version>
         <cyclonedx-maven-plugin-version>2.9.1</cyclonedx-maven-plugin-version>
 
-        <camel.version>4.18.2</camel.version>
+        <camel.version>4.18.3</camel.version>
 
         <citrus.version>4.9.2</citrus.version>
         <jose4j.version>0.9.6</jose4j.version>
@@ -138,7 +138,7 @@
         <connection>scm:git:http://gitbox.apache.org/repos/asf/camel-kamelets.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/camel-kamelets.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary</url>
-        <tag>v4.18.2</tag>
+        <tag>v4.18.3</tag>
     </scm>
 
     <issueManagement>
