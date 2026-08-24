@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.22.0</version>
+        <version>4.22.0-SNAPSHOT</version>
     </parent>
 
     <groupId>org.apache.camel.kamelets</groupId>
@@ -93,6 +93,23 @@
         <version.com.microsoft.azure.azure-schemaregistry-kafka-avro>1.1.4</version.com.microsoft.azure.azure-schemaregistry-kafka-avro>
         <version.com.databricks.databricks-jdbc>3.4.2</version.com.databricks.databricks-jdbc>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-parent</artifactId>
+                <version>${camel-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.azure</groupId>
+                <artifactId>azure-identity</artifactId>
+                <version>${version.com.azure.azure-identity}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
     <developers>
         <developer>
