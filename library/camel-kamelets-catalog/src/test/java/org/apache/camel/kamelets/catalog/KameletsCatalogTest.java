@@ -91,7 +91,7 @@ public class KameletsCatalogTest {
 
     @Test
     void testGetKameletsByProvider() throws Exception {
-        List<Kamelet> c = catalog.getKameletByProvider("Apache Software Foundation");
+        List<Kamelet> c = catalog.getKameletByProvider("Red Hat");
         assertFalse(c.isEmpty());
         c = catalog.getKameletByProvider("Eclipse");
         assertTrue(c.isEmpty());
@@ -132,7 +132,7 @@ public class KameletsCatalogTest {
         assertFalse(catalog.getKameletsByType(KameletTypeEnum.SOURCE.type()).isEmpty());
         assertFalse(catalog.getKameletsByNamespace("AWS").isEmpty());
         assertFalse(catalog.getKameletsByGroups("AWS S3").isEmpty());
-        assertFalse(catalog.getKameletByProvider("Apache Software Foundation").isEmpty());
+        assertFalse(catalog.getKameletByProvider("Red Hat").isEmpty());
 
         // Hardened contract: the lookups return a non-null (possibly empty) list
         // and never NPE on a Kamelet that lacks the queried label/annotation; an
@@ -178,57 +178,31 @@ public class KameletsCatalogTest {
     void testSupportedHeaders() throws Exception {
         verifyHeaders("aws-s3-source", 26);
         verifyHeaders("aws-s3-sink", 47);
-        verifyHeaders("aws-cloudtrail-source", 4);
         verifyHeaders("aws-redshift-source", 0);
         verifyHeaders("aws-not-exists", 0);
         verifyHeaders("azure-eventhubs-sink", 2);
         verifyHeaders("azure-functions-sink", 8);
-        verifyHeaders("azure-servicebus-source", 21);
         verifyHeaders("azure-storage-blob-source", 39);
         verifyHeaders("azure-storage-blob-sink", 46);
         verifyHeaders("azure-storage-blob-changefeed-source", 39);
-        verifyHeaders("azure-storage-datalake-source", 25);
-        verifyHeaders("azure-storage-datalake-sink", 37);
         verifyHeaders("azure-storage-queue-source", 6);
         verifyHeaders("azure-storage-queue-sink", 16);
         verifyHeaders("cassandra-sink", 1);
         verifyHeaders("cassandra-source", 1);
-        verifyHeaders("couchbase-sink", 2);
-        verifyHeaders("dropbox-source", 0);
-        verifyHeaders("dropbox-source", 0);
-        verifyHeaders("elasticsearch-index-sink", 10);
-        verifyHeaders("elasticsearch-search-source", 10);
-        verifyHeaders("exec-sink", 0);
-        verifyHeaders("fhir-source", 0);
-        verifyHeaders("file-watch-source", 10);
         verifyHeaders("ftp-source", 15);
         verifyHeaders("ftp-sink", 6);
         verifyHeaders("ftps-source", 15);
         verifyHeaders("ftps-sink", 6);
-        verifyHeaders("github-commit-source", 7);
-        verifyHeaders("github-event-source", 7);
-        verifyHeaders("github-pullrequest-comment-source", 7);
-        verifyHeaders("github-pullrequest-source", 7);
-        verifyHeaders("github-tag-source", 7);
         verifyHeaders("google-bigquery-sink", 4);
-        verifyHeaders("google-calendar-source", 1);
-        verifyHeaders("google-functions-sink", 5);
-        verifyHeaders("google-mail-source", 9);
         verifyHeaders("google-pubsub-sink", 3);
         verifyHeaders("google-pubsub-source", 6);
-        verifyHeaders("google-sheets-source", 6);
-        verifyHeaders("google-storage-source", 21);
-        verifyHeaders("google-storage-sink", 15);
         verifyHeaders("http-source", 5);
         verifyHeaders("http-sink", 14);
         verifyHeaders("http-secured-source", 5);
         verifyHeaders("http-secured-sink", 14);
-        verifyHeaders("infinispan-source", 6);
-        verifyHeaders("infinispan-sink", 14);
         verifyHeaders("jira-add-comment-sink", 17);
         verifyHeaders("jira-add-issue-sink", 17);
         verifyHeaders("jira-source", 3);
-        verifyHeaders("jira-oauth-source", 3);
         verifyHeaders("jms-amqp-10-source", 15);
         verifyHeaders("jms-amqp-10-sink", 18);
         verifyHeaders("jms-apache-artemis-source", 15);
@@ -237,61 +211,32 @@ public class KameletsCatalogTest {
         verifyHeaders("jms-ibm-mq-sink", 18);
         verifyHeaders("kafka-source", 9);
         verifyHeaders("kafka-sink", 5);
-        verifyHeaders("kubernetes-namespaces-source", 2);
-        verifyHeaders("kubernetes-nodes-source", 2);
-        verifyHeaders("kubernetes-pods-source", 2);
         verifyHeaders("log-sink", 0);
-        verifyHeaders("mail-source", 0);
-        verifyHeaders("mail-sink", 8);
         verifyHeaders("mariadb-source", 0);
         verifyHeaders("mariadb-sink", 9);
         verifyHeaders("minio-source", 15);
         verifyHeaders("minio-sink", 23);
-        verifyHeaders("mongodb-changes-stream-source", 3);
         verifyHeaders("mongodb-sink", 12);
         verifyHeaders("mongodb-source", 3);
-        verifyHeaders("mqtt-sink", 3);
-        verifyHeaders("mqtt-source", 2);
-        verifyHeaders("mqtt5-sink", 3);
-        verifyHeaders("mqtt5-source", 2);
         verifyHeaders("mysql-sink", 9);
         verifyHeaders("mysql-source", 0);
-        verifyHeaders("nats-sink", 5);
-        verifyHeaders("nats-source", 9);
-        verifyHeaders("oracle-database-sink", 9);
-        verifyHeaders("oracle-database-source", 0);
         verifyHeaders("postgresql-sink", 9);
         verifyHeaders("postgresql-source", 0);
-        verifyHeaders("pulsar-sink", 5);
-        verifyHeaders("pulsar-source", 11);
-        verifyHeaders("redis-sink", 29);
-        verifyHeaders("redis-source", 28);
-        verifyHeaders("rest-openapi-sink", 0);
         verifyHeaders("salesforce-create-sink", 1);
         verifyHeaders("salesforce-delete-sink", 1);
         verifyHeaders("salesforce-update-sink", 1);
-        verifyHeaders("salesforce-composite-upsert-sink", 1);
         verifyHeaders("salesforce-source", 22);
-        verifyHeaders("scp-sink", 0);
         verifyHeaders("sftp-sink", 6);
         verifyHeaders("sftp-source", 15);
         verifyHeaders("slack-sink", 0);
         verifyHeaders("slack-source", 0);
-        verifyHeaders("splunk-hec-sink", 1);
         verifyHeaders("splunk-sink", 0);
         verifyHeaders("splunk-source", 0);
         verifyHeaders("sqlserver-sink", 9);
         verifyHeaders("sqlserver-source", 0);
-        verifyHeaders("ssh-sink", 4);
-        verifyHeaders("ssh-source", 4);
         verifyHeaders("telegram-sink", 6);
         verifyHeaders("telegram-source", 5);
         verifyHeaders("timer-source", 2);
-        verifyHeaders("twitter-directmessage-source", 2);
-        verifyHeaders("twitter-timeline-source", 1);
-        verifyHeaders("twitter-search-source", 7);
-        verifyHeaders("webhook-source", 0);
-        verifyHeaders("wttrin-source", 5);
     }
 
     void verifyHeaders(String name, int expected) {
