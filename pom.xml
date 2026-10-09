@@ -160,7 +160,7 @@
         <connection>scm:git:http://gitbox.apache.org/repos/asf/camel-kamelets.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/camel-kamelets.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=camel-kamelets.git;a=summary</url>
-        <tag>v4.18.4</tag>
+        <tag>camel-kamelets-4.18.5-branch</tag>
     </scm>
 
     <issueManagement>

@@ -91,7 +91,7 @@ public class KameletsCatalogTest {
 
     @Test
     void testGetKameletsByProvider() throws Exception {
-        List<Kamelet> c = catalog.getKameletByProvider("Apache Software Foundation");
+        List<Kamelet> c = catalog.getKameletByProvider("Red Hat");
         assertFalse(c.isEmpty());
         c = catalog.getKameletByProvider("Eclipse");
         assertTrue(c.isEmpty());
@@ -206,7 +206,7 @@ public class KameletsCatalogTest {
         verifyHeaders("salesforce-create-sink", 1);
         verifyHeaders("salesforce-delete-sink", 1);
         verifyHeaders("salesforce-update-sink", 1);
-        verifyHeaders("salesforce-source", 21);
+        verifyHeaders("salesforce-source", 22);
         verifyHeaders("scp-sink", 0);
         verifyHeaders("sftp-sink", 6);
         verifyHeaders("sftp-source", 15);
